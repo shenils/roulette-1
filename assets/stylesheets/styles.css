@@ -19,6 +19,10 @@
     padding-left: 0.5em; }
   #board .red {
     background-color: red; }
+    #board .red:hover {
+      background-color: blue; }
+    #board .red:active {
+      background-color: yellow; }
   #board .black {
     background-color: black; }
   #board .range3 {

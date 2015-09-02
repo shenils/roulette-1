@@ -29,6 +29,13 @@ $num_height: 10vh;
   .red{
     background-color: red;
     
+    &:hover {
+      background-color: blue;
+    }
+    &:active {
+      background-color: yellow;
+    }    
+
   }
   .black{
     background-color: black;
