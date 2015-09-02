@@ -1,0 +1,44 @@
+$num_height: 10vh;
+
+#board {
+  background-color: green;
+  color: #FFFFFF;
+  
+  .zero {
+    text-align: right;
+    border: 1px solid white;
+    height: 3*$num_height;
+    line-height: 3*$num_height;
+  }
+
+  .num {
+    border: 1px solid white;
+    height: $num_height;
+    line-height: $num_height;
+    text-align: center;
+  }
+  
+  .which-row {
+    border: 1px solid white;
+    height: $num_height;
+    line-height: $num_height;
+    text-align: left;
+    padding-left: 0.5em;
+  }
+
+  .red{
+    background-color: red;
+    
+  }
+  .black{
+    background-color: black;
+  }
+  .range3{
+    text-align: center;
+    border: 1px solid white;
+  }
+  .range2{
+    text-align: center;
+    border: 1px solid white;
+  }
+}
